@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen">
       <section className="container mx-auto px-4 py-8 flex-grow">
         <h1 className="text-4xl text-center font-bold mb-8">
-          Galeria de Imagens
+          Galeria de fotos
         </h1>
         <ImageGallery />
       </section>
