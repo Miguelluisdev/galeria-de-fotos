@@ -6,7 +6,7 @@ import FilterBar from "@/shared/components/filter-bar"
 import ImageCard from "@/shared/components/image-card"
 import ImageModal from "@/shared/components/image-modal"
 import { useFilteredImages } from "@/shared/hooks/filter-images"
-import { useMemo, useState } from "react"
+import { useState } from "react"
 
 export default function ImageGallery() {
   const [selectedImage, setSelectedImage] = useState<ImageData | null>(null)
