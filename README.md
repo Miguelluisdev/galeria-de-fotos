@@ -17,7 +17,7 @@
 
    <div align="center">
      Optei por usar Nextjs , framework do React.js com typescript e tailwind.
-     o porque do Nextjs(React) , além de adicionar novas features o framwork melhora alguns pontos do react como SSR , CSR , app router , cache , performance , SEO  e entre outros.
+     O porque do Nextjs(React) , além de adicionar novas features o framwork melhora alguns pontos do react como SSR , CSR , app router , cache , performance , SEO  e entre outros.
     </div>
        <div align="center">
       a api que utilizei foi a https://picsum.photos/
