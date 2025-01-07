@@ -35,13 +35,20 @@ export default function ImageGallery() {
         onCategoryChange={(category) => setSelectedCategory(category)}
       />
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {filteredImages.map((image) => (
-          <div key={image.id} onClick={() => setSelectedImage(image)}>
-            <ImageCard image={image} />
-          </div>
-        ))}
-      </section>
+
+      {filteredImages.length === 0 ? (
+        <section className="flex justify-center items-center h-64 text-gray-500 text-lg">
+          Autor da imagem não encontrado.
+        </section>
+      ) : (
+        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {filteredImages.map((image) => (
+            <div key={image.id} onClick={() => setSelectedImage(image)}>
+              <ImageCard image={image} />
+            </div>
+          ))}
+        </section>
+      )}
 
       {selectedImage && (
         <ImageModal
