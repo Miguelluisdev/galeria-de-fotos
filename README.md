@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <br />
+    <a href="#" target="_blank">
+      <img src="https://github.com/Miguelluisdev/galeria-de-fotos/blob/master/public/image.png" alt="Banner galeria de fotos">
+    </a>
+  <br />
 
-## Getting Started
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=next.js&color=black" alt="Next.js" />
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React.js" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="TailwindCSS" />
+  </div>
+<br/><br/>
+ 
+  <h1 align="center">Galeria de fotos (teste tecnico)</h1>
 
-First, run the development server:
+   <div align="center">
+     Optei por usar Nextjs , framework do React.js com typescript e tailwind.
+     o porque do Nextjs(React) , além de adicionar novas features o framwork melhora alguns pontos do react como SSR , CSR , app router , cache , performance , SEO  e entre outros.
+    </div>
+       <div align="center">
+      a api que utilizei foi a https://picsum.photos/
+         uma api de fotos bem tranquila de ser utilizada , porém ela não possui rota de filtragem de dados então tive que adaptar.
+    </div>
+</div>
 
+## 💻 **Como Inicializar o Projeto** <a name="como-inicializar"></a>
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+**1. Clone o repositório:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/Miguelluisdev/galeria-de-fotos.git
+  cd galeria-de-fotos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Instale as dependências:**
+```bash
+  npm install
+  # ou
+  yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**3. Inicie o servidor de desenvolvimento:**
+```bash
+  npm run dev
+  # ou
+  yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**5. Acesse no navegador:**
+```
+  http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 **Estrutura do Projeto** <a name="estrutura"></a>
+```
+/src
+├──  app/        # Paginas e rotas do site
+├── components/  # Componentes do Shadcn
+├── shared/      # componentes que são utilizados varias vezes
+├── subdomain/   # componentes que são utilizados em apenas uma vez em um local especifico por exemplo a home
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <strong>Galeria de fotos - Teste tecnico</strong>
+</div>
