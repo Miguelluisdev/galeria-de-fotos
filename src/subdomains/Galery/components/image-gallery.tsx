@@ -37,7 +37,7 @@ export default function ImageGallery() {
 
 
       {filteredImages.length === 0 ? (
-        <section className="flex justify-center items-center h-64 text-gray-500 text-lg">
+        <section className="flex justify-center items-center h-64 text-bl text-lg">
           Autor da imagem não encontrado.
         </section>
       ) : (
