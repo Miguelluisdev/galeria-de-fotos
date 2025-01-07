@@ -1,4 +1,3 @@
-// hooks/useClickOutside.ts
 import { useEffect, useRef } from "react"
 
 type ClickOutsideHandler = () => void
