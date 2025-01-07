@@ -22,7 +22,7 @@
     </div>
        <div align="center">
       a api que utilizei foi a https://picsum.photos/
-         uma api de fotos bem tranquila de ser utilizada , porém ela não possui rota de filtragem de dados então tive que adaptar.
+         uma api de fotos bem tranquila de ser utilizada , porém ela não possui rota de filtragem de dados então tive que adaptar para a busca ser o nome do autor da foto.
     </div>
 </div>
 
